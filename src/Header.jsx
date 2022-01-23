@@ -4,7 +4,7 @@ const Header = () => {
 
   return (
     <header>
-      <img id='logo' src='../public/logo.png'></img>
+      <img id='logo' src='./public/logo.png'></img>
     </header>
   );
 };

@@ -13,7 +13,7 @@ const CallTab = ({ setShowDetail, setSelectedCall, id, identifier, time, directi
             >
                 <div className='direction-img-container'>
                     {
-                        direction == 'inbound' ? <img className='direction-img' src="../public/inbound.png"></img> : <img className='direction-img' src="../public/outbound.png"></img>
+                        direction == 'inbound' ? <img className='direction-img' src="./public/inbound.png"></img> : <img className='direction-img' src="./public/outbound.png"></img>
                     }
                 </div>
                 <div className='details'>

@@ -1,6 +1,7 @@
 {
   "name": "front-end-leap-assessment",
   "version": "1.0.0",
+  "homepage": "https://treephones.github.io/leapgrad-frontend-app",
   "description": "Leap test",
   "main": "index.js",
   "repository": "",
@@ -9,7 +10,9 @@
   "private": false,
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -22,6 +25,7 @@
     "babel-preset-env": "1.7.0",
     "babel-preset-react": "6.24.*",
     "css-loader": "2.1.*",
+    "gh-pages": "^3.2.3",
     "html-loader": "0.5.*",
     "html-webpack-plugin": "3.2.*",
     "style-loader": "0.23.*",
